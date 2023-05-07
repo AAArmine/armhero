@@ -1,0 +1,104 @@
+
+.flextop-nav {
+    background-color: black;
+    padding-bottom: 3px !important;
+}
+
+.navspan {
+    color: white;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.text-right {
+    padding: 0 3px;
+
+}
+
+.main-center {
+    display: table;
+    margin: auto; /* align horisontally center */
+    text-align: center;
+    padding: 55px 0;
+    color: var(--black);
+}
+
+.main-caption {
+    font-weight: 900;
+    font-size: 26px;
+    text-shadow: 1px 0 0 var(--black);
+    margin-bottom: 25px;
+}
+
+.main-text {
+    width: 50%;
+    margin: auto;
+    font-weight: 900;
+}
+
+.nav-link.active {
+    color: #AB1401 !important;
+    background-color: transparent !important;
+}
+
+.nav-item a {
+    color: var(--black) !important;
+}
+
+.nav-item a:hover {
+    color: rgb(105, 105, 105) !important;
+}
+
+.nav-pills {
+    background-color: transparent !important;
+    font-weight: 900;
+    text-shadow: 0 -0.5px 1px;
+    font-size: 19px;
+}
+
+.articles {
+    width: 100vw;
+    padding: 0px 100px 50px 100px;
+}
+
+.not-found-caption {
+    text-transform: uppercase;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.not-foud-text {
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.article-not-found {
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.not-found-item1, .not-found-item2 {
+    width: 45%;
+}
+
+.not-found-item2 {
+    position: relative;
+}
+
+.fonImg {
+    width: 88%;
+}
+
+.absImg {
+    position: absolute;
+    top: 0px;
+}
+
+.absImg-img {
+    width: 85%;
+}

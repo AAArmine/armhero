@@ -1,0 +1,410 @@
+.part2{
+	margin-top: 100px;
+}
+.part3{
+	margin-top: 100px;
+	width: 100%
+}
+.part4{
+	margin-top: 65px;
+}
+
+.flextop-nav {
+    background: #000;
+}
+#auto_variant1{
+width: 100%;
+height: auto;
+}
+.auto_variant1{
+	background-image: url(../images/auto_variant.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: left;
+
+}
+
+.besupport{
+	width: 50%;
+	height: 600px;
+	background-color: #05000070;
+}
+
+.thankyou1{
+	font-size: 65px;
+	color: #FF3100;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.besup_part1{
+	padding-top: 160px;
+	padding-left: 120px;
+	padding-left: 120px;
+}
+.thankyou2{
+	font-size: 24px;
+	color: white;
+}
+.besup_part2{
+	padding-top: 20px;
+	padding-left: 120px;
+	padding-right: 50px;
+}
+.thankbtn{
+	width: 200px;
+	height: 46px;
+	border-radius: 10px;
+	border: none;
+	background-image: linear-gradient(to right, #ab1401, #e63a09);
+	color: white;
+	font-size: 18px;
+}
+.besup_part3{
+	padding-top: 30px;
+	padding-left: 120px;
+}
+
+.part4{
+	background-image: url(../images/max_hero2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: auto;
+	background-position: center;
+}
+.part4img{
+	background-color: #05000042;
+	width: 100%;
+	height: 300px;
+	text-align: center;
+
+
+}
+.pt4text1{
+	font-size:39px;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;	
+	text-align: center;
+}
+.pt4text2{
+	font-size:21px;
+	color: white;
+	/*font-family: 'Source Sans Pro', sans-serif;	*/
+	text-align: center;
+	
+
+}
+.infosupport{
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.part4_1{
+	padding-top: 30px;
+}
+.part4_3{
+	padding-top: 30px;
+
+}
+
+.btn1 {
+  background-image: linear-gradient(to right, #ab1401, #e63a09);
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 10px;
+  padding: 15px 15px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  height: 50px;
+}
+.btn12 {
+  background-image: linear-gradient(to right, #ab1401, #e63a09);
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 10px;
+  padding: 15px 36px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  height: 50px;
+}
+
+.btn1:hover {
+  filter: brightness(0.8);
+  text-decoration: none;
+  color: var(--white);
+
+}
+.part2_1{
+	margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+	.infosupport{
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+}
+
+@media (max-width: 769px) {
+
+	.thankyou1{
+		font-size: 40px;
+		color: #FF3100;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	
+	.thankyou2{
+		font-size: 17px;
+		color: white;
+	}	
+	.pt4text2{
+	font-size:13px;
+	color: white;
+	/*font-family: 'Source Sans Pro', sans-serif;	*/
+	text-align: center;
+	
+
+	}
+	.infosupport{
+		text-align: center;padding-right: 100px;
+		padding-left: 100px;
+	}
+	
+
+}
+@media (max-width: 426px) {
+	.besup_part1 {
+	    padding-top: 100px;
+	    padding-left: 7px;
+	}
+	.besup_part2 {
+	    padding-top: 20px;
+	    padding-left: 7px;
+	}
+	.besup_part3 {
+	    padding-top: 30px;
+	    padding-left: 1px;
+	}
+
+	.thankyou1{
+		font-size: 27px;
+		color: #FF3100;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	.btn12 {
+  background-image: linear-gradient(to right, #ab1401, #e63a09);
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 10px;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  height: 50px;
+	}
+	#donate_btn111{
+  padding: 10px 13px;
+
+	}
+	.infosupport {
+		margin-top: 20px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	.besup_part2 {
+		padding-top: 20px;
+		padding-left: 20px !important;
+		padding-right: 20px!important;
+	}
+}
+@media (max-width: 765px) {
+	.besup_part1 {
+	    padding-top: 100px;
+	    padding-left: 7px;
+	}
+	.besup_part2 {
+	    padding-top: 20px;
+	    padding-left: 7px;
+	}
+	.besup_part3 {
+	    padding-top: 30px;
+	    padding-left: 1px;
+	}
+
+	.thankyou1{
+		font-size: 27px;
+		color: #FF3100;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	.btn12 {
+  background-image: linear-gradient(to right, #ab1401, #e63a09);
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 10px;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  height: 50px;
+	}
+	#donate_btn111{
+  padding: 10px 13px;
+
+	}
+}
+
+
+@media (max-width: 1023px) {
+	.besup_part1 {
+	    padding-top: 100px;
+	    padding-left: 50px;
+	}
+	.besup_part2 {
+	    padding-top: 20px;
+	    padding-left: 50px;
+	}
+	.besup_part3 {
+	    padding-top: 30px;
+	    padding-left: 50px;
+	}
+
+	.thankyou1{
+		font-size: 37px;
+		color: #FF3100;
+		font-family: 'Source Sans Pro', sans-serif;
+	}
+	.thankyou2{
+		font-size: 20px;
+	}
+	.btn12 {
+  background-image: linear-gradient(to right, #ab1401, #e63a09);
+  color: var(--white);
+  font-size: 14px;
+  padding-top: 10px;
+  padding: 10px 13px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  height: 50px;
+	}
+
+}
+
+
+
+@media (max-width: 767px) {
+	#auto_variant1{
+width: 100%;
+height: 600px;
+}
+.auto_variant1{
+	background-image: url(../images/auto_variant_sm.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	justify-content: left;
+
+}
+.besupport{
+	width: 100%;
+	height: 100%;
+	background-color: #05000070;
+}
+
+
+.thankyou1{
+	font-size: 50px;
+	color: #FF3100;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.besup_part1{
+	padding-top: 160px;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-align: center;
+}
+.thankyou2{
+	font-size: 19px;
+	color: white;
+	padding-right: 30px;
+}
+.besup_part2{
+	padding-top: 20px;
+	padding-left: 100px;
+	padding-right: 100px;
+	text-align: center;
+}
+.thankbtn{
+	width: 200px;
+	height: 46px;
+	border-radius: 10px;
+	border: none;
+	background-image: linear-gradient(to right, #ab1401, #e63a09);
+	color: white;
+	font-size: 18px;
+}
+.besup_part3{
+	padding-top: 60px;
+	text-align: center;
+		padding-left: 10px;
+	padding-right: 10px;
+}
+}
+
+
+
+@media (max-width: 426px) {
+
+
+.thankyou1{
+	font-size: 32px;
+	color: #FF3100;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.besup_part1{
+	padding-top: 160px;
+	text-align: center;
+	    padding-left: 40px;
+    padding-right: 40px	
+}
+.thankyou2{
+	font-size: 14px;
+	color: white;
+	width: 100px;
+}
+.besup_part2{
+	padding-top: 20px;
+	text-align: center;
+}
+.thankbtn{
+	width: 200px;
+	height: 46px;
+	border-radius: 10px;
+	border: none;
+	background-image: linear-gradient(to right, #ab1401, #e63a09);
+	color: white;
+	font-size: 18px;
+}
+.besup_part3{
+	padding-top: 60px;
+	text-align: center;
+		    padding-left: 60px;
+    padding-right: 60px	
+}
+.part4_1{
+	text-align: center;
+	padding-top: 5px;
+}
+.pt4text1{
+	font-size: 30px;
+ 	padding-top: 5px;
+}
+.nav-tabs>li>a {
+    font-size: 13px;
+}
+#home h3{
+	font-size: 18px;
+}
+}

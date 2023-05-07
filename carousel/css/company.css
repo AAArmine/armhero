@@ -1,0 +1,173 @@
+
+/* Previous button  */
+.media-carousel .carousel-control.left
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Next button  */
+.media-carousel .carousel-control.right
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+
+
+
+
+
+
+
+.keysup{
+    font-size: 20px;
+font-family: 'Ubuntu', sans-serif;
+color: black;   
+}
+.justsup{
+    font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+color: black;   
+
+}
+.keysup:hover{
+color: #B00B0B; 
+
+
+}
+.justsup:hover{
+color: #B00B0B; 
+    
+}
+.companies_logos1{
+    width: 60%;
+    height: auto;
+}
+.companies_logos2{
+    width: 50%;
+    height: auto;
+}
+.companies_logos3{
+    width: 27%;
+    height: auto;
+}
+.logdiv1{
+
+}
+.logdiv2{
+   margin-top: 60px;
+
+}
+.logdiv3{
+margin-top: 10px;
+
+}
+.company{
+    text-align: center;
+    justify-content: center;
+}
+.company_name{
+    font-size: 25px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 50px;
+}
+
+.company_text{
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 50px;
+
+}
+
+.company_btn{
+    color: white;
+    width: 215px;
+    height: 45px;
+    background-color: #B00B0B;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.visite{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 10px;  
+}
+
+@media (max-width: 426px) {
+.keysup{
+    font-size: 17px;
+font-family: 'Ubuntu', sans-serif;
+color: black;   
+}
+.justsup{
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+color: black;   
+
+}
+
+.ioi{
+  font-size: 20px;
+}
+.company_name{
+    font-size: 19px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 10px;
+}
+
+.company_text{
+    font-size: 15px;
+    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
+
+}
+
+.company_btn{
+    color: white;
+    width: 175px;
+    height: 35px;
+    background-color: #B00B0B;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+.visite{
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    padding-top: 5px;  
+}
+.logdiv3{
+  padding-top: 30px;
+}
+}

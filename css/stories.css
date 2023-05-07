@@ -1,0 +1,355 @@
+.img_article {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px !important;
+}
+.flex-item1 {
+    margin-top: 7px!important;
+}
+.history_h_content h5, .history_h_content div {
+
+    font-weight: bold;
+
+}
+
+#history_create {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+#history_create:hover {
+
+    text-decoration: none;
+    color: white;
+
+}
+.container-fluid{
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+
+}
+
+.red-line {
+width: 70%;
+height: 2px;
+background-color: #ab1401;
+margin-top: 10px;
+}
+.read-more {
+margin-top: 8px;
+}
+.read-more a {
+color: var(--black);
+text-shadow: 0 -0.5px 1px;
+font-weight: 700;
+font-size: 14px;
+}
+.read-more a:hover {
+color: #007bff;
+text-decoration: none;
+}
+.auth-flex {
+    justify-content: space-around;
+    margin: auto;
+}
+.auth-flex-item{
+    width: 26%;
+    margin-top: 50px;
+}
+.title_article{
+padding: 15px 0 3px;
+font-size: 20px;
+font-weight: 900;
+text-shadow: 0 -0.5px 1px;
+}
+.desc_article{
+padding: 8px 0 3px;
+font-size: 13px !important;
+font-weight: 900;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 3;
+-webkit-box-orient: vertical;
+}
+.navspanactive {
+    padding: 0 5px 12px 5px;
+}
+
+.create_st{
+    padding: 50px 0;
+    width: 100%;
+    margin: auto;
+}
+.filters-item-auth{
+    width: 24%;
+}
+.filters-section{
+    margin: 100px 0 50px;
+}
+.title-filter{
+    color: #ab1401;
+    font-size: 30px;
+    font-weight: 900;
+}
+.container-fluid-80{
+    width: 80%;
+    margin: auto;
+}
+.fix-input-width{
+    width: 180px;
+    font-weight: 700;
+}
+.filters-item select option {
+    font-size: 13px;
+    font-weight: 700;
+}
+.submit-filter{
+    background-color: rgb(218, 219, 219);
+    font-weight: 700;
+    transition: background-color 0.5s;
+}
+.submit-filter:hover{
+    background-color: white;
+}
+#notFilledName{
+    display: none;
+
+}
+#notFilledName2{
+    display: none;
+
+}
+#notFilledBirthday{
+    display: none;
+
+}
+#notFilledPlaceOfBirth{
+    display: none;
+
+}
+.error-filling-filter{
+    font-weight: 700;
+    font-size: 13px;
+    color: red;
+    height: 20px;
+}
+.height-default{
+    height: 20px;
+}
+/* sa stories-i hamar dnel inchqan petq e
+.filters-item-hist{
+    width: 24%;
+} */
+
+/* ---------------------media ----------------*/
+@media screen and (max-width: 1278px) {
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 20%;
+        margin-top: 15px;
+    }
+            .fix-input-width{
+        width: 170px;
+    }
+
+}
+
+@media screen and (max-width: 1182px) {
+    .flex-item1 {
+        margin-top: 20px!important;
+    }
+        .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 20%;
+        margin-top: 15px;
+    }
+            .fix-input-width{
+        width: 150px;
+    }
+/*    .title_article {
+        font-size: 28px !important;
+        width: 100%;
+        font-weight: bolder;
+    }*/
+    .option-val{
+        font-size: 10px
+    }
+    .filters-item select {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 1162px) {
+    
+    .flex-item1 {
+        margin-top: 9px!important;
+    }
+}
+@media screen and (max-width: 1050px) {
+    
+    .flex-item1 {
+        margin-top: 9px!important;
+    }
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 20%;
+        margin-top: 15px;
+    }
+    .fix-input-width{
+        width: 125px;
+    }
+    .title-filter{
+        color: #ab1401;
+        font-size: 27px;
+        font-weight: 900;
+    }
+}
+@media screen and (max-width: 950px) {
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 50%;
+        margin-top: 15px;
+    }
+        .fix-input-width{
+        width: 220px;
+    }
+    .filters-item select {
+        font-size: 16px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 767px) {
+    
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 50%;
+        margin-top: 15px;
+    }
+        .fix-input-width{
+        width: 185px;
+    }
+    .img_article {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 500px !important;
+    width: 100% !important;
+    }
+    .filters-section {
+    margin: 75px 0 7px;
+    }
+
+}
+@media screen and (max-width: 651px) {
+    
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 100%;
+        margin-top: 15px;
+    }
+        .fix-input-width{
+        width: 345px;
+    }
+    .title-filter{
+        color: #ab1401;
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .img_article {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 430px !important;
+        width: 100% !important;
+    }
+    .filters-section {
+    margin: 60px 0 0px;
+    }
+    .filters-item select {
+        font-size: 19px;
+        font-weight: 700;
+    }
+}
+@media screen and (max-width: 495px) {
+    
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 100%;
+        margin-top: 15px;
+    }
+        .fix-input-width{
+        width: 235px;
+    }
+    .title-filter{
+        color: #ab1401;
+        font-size: 23px;
+        font-weight: 900;
+    }
+    .img_article {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 400px !important;
+        width: 100% !important;
+    }
+    .btn1{
+            padding: 11px 17px
+    }
+
+}
+@media screen and (max-width: 380px) {
+    
+    .filters-section-flex{
+        flex-wrap: wrap;
+    }
+    .filters-item{
+        width: 100%;
+        margin-top: 15px;
+    }
+        .fix-input-width{
+        width: 205px;
+    }
+    .title-filter{
+        color: #ab1401;
+        font-size: 19px;
+        font-weight: 900;
+    }
+    .img_article {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        height: 340px !important;
+        width: 100% !important;
+    }
+    .filters-item select {
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .btn1{
+            padding: 8px 7px
+    }
+}
+
+

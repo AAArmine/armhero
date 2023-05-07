@@ -1,0 +1,150 @@
+.footer{
+	border: none !important	;
+	color:grey !important;
+}
+.footer .copyright {
+  color:grey !important;  
+}
+.file_label{
+	border: 1px solid #27368a;
+	border-radius: 6px
+}
+.sidebar .sidebar-wrapper{
+    background-color:#7c7c7c;
+    color:black!important;
+}
+.tbl-image{
+	width: 100px;
+	height: 100px
+}
+.delete-all-checked-row{
+	border: none;
+	border-radius: 6px
+}
+.btn-orange{
+	background: #d03406;
+}
+.go-back{
+	padding: 8px 15px;
+	color: white;
+	border-radius: 7px;
+	text-decoration: none;
+	margin-bottom: 25px;
+	position: relative;
+	top:-15px;
+	left:15px;
+}
+.delete-links{
+	font-size: 25px;
+	color: red;
+	cursor: pointer;
+	position: relative;
+	top: 15px;
+	font-weight: 800;
+}
+.result-change-link,
+.result-change-link-internal,
+.result-am,
+.result-ru,
+.result-en,
+.submit-confirm
+{
+	font-size: 12px;
+	font-weight: 900;
+	margin: 25px 0;
+	color: green;
+}
+.change-status{
+	margin-bottom: 45px;
+    padding: 8px;
+    background-color: #639163;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+	transition: background-color 1s ease;
+	cursor: pointer;
+}
+.change-status:hover{
+	background-color: #4d704d;
+}
+.make-changes{
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: underline;
+}
+.send-to-moderator{
+	border-radius: 6px
+}
+button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: .25rem
+}
+button:focus{
+	outline: none;
+}
+.action-align{
+    position:relative !important;
+    top:6px !important;
+}
+.delete-img i{
+	font-size: 24px;
+	color: red;
+	cursor: pointer;
+}
+.div-main-image{
+	width: 200px;
+	/*height: 200px*/
+}
+.pull-left input:placeholder{
+    color:grey !important;
+}
+.main-logo{
+    width:30px;
+}
+.search input{
+    background-color:grey!important;
+}
+.main-panel .navbar{
+   background-color:#d03406; 
+}
+.main-panel .content{
+	min-height: auto!important;
+}
+.delete-links{
+	width:20px;
+}
+.img-size{
+	width: 100%;
+}
+.img{
+	width: 200px;
+	display:block;
+}
+.border-link {
+	border:1px solid grey;
+	padding: 20px;
+	margin-bottom: 50px;
+}
+.img-size img{
+	width: 100%
+}
+.error{
+	border: 1px solid red !important;
+}
+.bg-grey{
+	background: #3a3535;
+}
+.article-text{
+	height: 150px
+}
+.modal-textarea{
+	height: 300px
+}
+.returned-result{
+	text-align: center;
+	font-size: 15px;
+	font-weight: 700;
+}
